@@ -23,11 +23,11 @@ function pinoStackdriver (line) {
 
     // err.message or err.stack has priority over msg
     if (line.err) {
-      if (line.err.message) {
-        line.message = line.err.message;
-      }
       if (line.err.stack) {
         line.message = line.err.stack;
+      }
+      if (line.err.message) {
+        line.message = line.err.message;
       }
     }
 
