@@ -1,6 +1,6 @@
 {
   "name": "@firedevs/pino-stackdriver",
-  "version": "3.1.0",
+  "version": "1.0.0",
   "description": "A utility that makes pino logs StackDriver-compatible",
   "main": "index.js",
   "bin": {
