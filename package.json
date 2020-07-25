@@ -1,0 +1,38 @@
+{
+  "name": "@firedevs/pino-stackdriver",
+  "version": "3.1.0",
+  "description": "A utility that makes pino logs StackDriver-compatible",
+  "main": "index.js",
+  "bin": {
+    "pino-stackdriver": "cli.js"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "pino",
+    "stackdriver",
+    "logentry"
+  ],
+  "author": "Firedevs",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/firedevs/pino-stackdriver/issues"
+  },
+  "homepage": "https://github.com/firedevs/pino-stackdriver#readme",
+  "dependencies": {
+    "pumpify": "^2.0.1",
+    "split2": "^3.1.1"
+  },
+  "devDependencies": {},
+  "release": {
+    "registries": [
+      "github"
+    ]
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
