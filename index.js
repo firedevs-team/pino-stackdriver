@@ -21,9 +21,14 @@ function pinoStackdriver (line) {
       line.message = line.msg;
     }
 
-    // err.stack has priority over msg
-    if (line.err && line.err.stack) {
-      line.message = line.err.stack;
+    // err.message or err.stack has priority over msg
+    if (line.err) {
+      if (line.err.message) {
+        line.message = line.err.message;
+      }
+      if (line.err.stack) {
+        line.message = line.err.stack;
+      }
     }
 
     // Set time as a ISO string instead of Unix time.

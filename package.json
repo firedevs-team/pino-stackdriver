@@ -1,5 +1,5 @@
 {
-  "name": "@firedevs/pino-stackdriver",
+  "name": "pino-stackdriver-mapper",
   "version": "1.0.0",
   "description": "A utility that makes pino logs StackDriver-compatible",
   "main": "index.js",
@@ -16,23 +16,12 @@
     "stackdriver",
     "logentry"
   ],
-  "author": "Firedevs",
+  "autor": "firedevs",
   "license": "SEE LICENSE IN LICENSE",
-  "bugs": {
-    "url": "https://github.com/firedevs/pino-stackdriver/issues"
-  },
-  "homepage": "https://github.com/firedevs/pino-stackdriver#readme",
+
   "dependencies": {
     "pumpify": "^2.0.1",
     "split2": "^3.1.1"
   },
-  "devDependencies": {},
-  "release": {
-    "registries": [
-      "github"
-    ]
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  }
+  "devDependencies": {}
 }
